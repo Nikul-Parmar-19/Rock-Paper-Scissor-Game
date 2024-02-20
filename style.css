@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+
+    
+}
+
+body{
+    background-color:rgb(71, 246, 246);
+
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    background-color: #081b31;
+    color: white;
+    height: 5rem;
+    line-height: 5rem;      /*To make text vertical-align, we use line-height here!...here, we can not use align item becase h1 is text(tag) right now not a item. */
+    /* justify-content: center; */
+}
+
+.choice{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease;
+
+}
+
+.choice:hover{
+
+    cursor: pointer;
+    background-color: #081b31;
+    object-fit: cover;
+    border-radius: 50%;
+    transform: scale(1.1); 
+
+
+}
+
+.choice > img{
+    height: 110px;
+    width: 110px;
+    object-fit: cover;
+
+    border-radius: 50%;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 3rem;
+    margin-top: 1.5rem;
+    font-size: 24px;
+}
+
+#user-score, #comp-score{
+    font-size: 3rem;
+}
+.msg-container{
+    margin-top: 2rem;
+}
+#msg{
+    background-color: #081b31;
+    color: white;
+    font-size: 28px;
+    display: inline;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+.footer{
+    display: flex; 
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 12px;
+}
+
