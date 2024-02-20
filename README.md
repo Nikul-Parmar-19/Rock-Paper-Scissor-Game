@@ -41,6 +41,6 @@ This game allows users to play the classic Rock, Paper, and Scissors game agains
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ## clone project 
-
+https://github.com/Nikul-Parmar-19/Rock-Paper-Scissor-Game.git
 
 
