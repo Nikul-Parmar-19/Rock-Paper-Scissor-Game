@@ -32,9 +32,6 @@ This game allows users to play the classic Rock, Paper, and Scissors game agains
 - CSS: Used for styling the game interface.
 - JavaScript: Used for implementing the game logic and interactivity.
 
-## Credits
-
-- Created by Nikul Parmar
 
 ## License
 
